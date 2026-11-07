@@ -48,7 +48,7 @@ end
 -- 2. Every place that draws a group name shows the display name ...
 local function has(src, text, msg) check(src:find(text, 1, true) ~= nil, msg) end
 has(GRID, "local label = EUI_CategoryManager:GroupDisplayName(sectionName)", "grid: no display label")
-has(GRID, "ns.CompactBagsSection(label, sectionItems, kind, assignKey)", "compact view: group label not translated")
+has(GRID, "ns.CompactBagsSection(label, sectionItems, kind, assignKey", "compact view: group label not translated")
 has(GRID, 'hdr._label:SetText(label .. " (" .. itemCount .. ")")', "grid header: group label not translated")
 has(SIDEBAR, "name = EUI_CategoryManager:GroupDisplayName(cat.groupName)", "sidebar: group heading not translated")
 has(SIDEBAR, "placeholder = EUI_CategoryManager:GroupDisplayName(myGroup)", "rename popup: placeholder not translated")

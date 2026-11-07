@@ -9856,3 +9856,12 @@ L["Enemy players take the Enemies color instead of their class color."] = "Feind
 -- Bags: Pins per Character
 L["Pins per Character"] = "Angepinnte Gegenstände je Charakter"
 L["Each character keeps its own pinned items, starting from the shared ones."] = "Jeder Charakter behält seine eigenen angepinnten Gegenstände, ausgehend von den gemeinsamen."
+
+-- Bags Reagent Bag Icon
+L["Reagent Bag Icon"] = "Symbol der Reagenzientasche"
+L["Marks items in the reagent bag with the chosen icon, except in the Reagent Bag sections. While an icon is chosen, Merge Duplicate Items keeps reagent bag stacks apart from stacks in other bags."] = "Markiert Gegenstände in der Reagenzientasche mit dem gewählten Symbol, außer in den Abschnitten 'Reagenzientasche'. Solange ein Symbol gewählt ist, hält 'Doppelte Gegenstände zusammenführen' Stapel aus der Reagenzientasche von Stapeln aus anderen Taschen getrennt."
+L["Reagent Bag Icon Options"] = "Optionen für das Symbol der Reagenzientasche"
+L["Profession"] = "Beruf"
+L["Golden Leaf"] = "Goldenes Blatt"
+L["Gold Nugget"] = "Goldnugget"
+L["Golden Hammer"] = "Goldener Hammer"
